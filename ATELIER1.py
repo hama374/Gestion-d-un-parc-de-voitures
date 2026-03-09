@@ -29,3 +29,12 @@ class Parc:
                  self.listeVoitures.append(voiture)
                  print("Voiture ajoutée au parc")
 
+    def sortirVoiture(self, voiture):
+
+            if voiture in self.listeVoitures:
+                         self.listeVoitures.remove(voiture)
+                         print("Voiture retirée du parc")
+                         print("Places libres :", self.calculerNbrPlacesLibres())
+            else:
+                         print("La voiture n'est pas dans le parc")
+
