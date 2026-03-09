@@ -48,4 +48,5 @@ v4 = Voiture("HH505", "Chevrolet", "Blanc")
 parc1.entrerVoiture(v1)
 parc1.entrerVoiture(v2)
 parc1.entrerVoiture(v3)
+parc1.sortirVoiture(v2)
 
